@@ -25,8 +25,10 @@ import { createAction } from 'redux-actions';
 ```
 
 Wraps an action creator so that its return value is the payload of a Flux Standard Action. 
+封装一个action创建器来生成标准的Flux数据流的Action
 
 `payloadCreator` must be a function, `undefined`, or `null`. If `payloadCreator` is `undefined` or `null`, the identity function is used.
+`payloadCreator`（payload创建器）必须是函数、`undefined`或者`null`。如果`payloadCreator`是`undefined`或`null`则缺省使用恒定函数
 
 Example:
 
