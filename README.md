@@ -49,6 +49,8 @@ If the payload is an instance of an [Error
 object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error),
 redux-actions will automatically set ```action.error``` to true.
 
+如果payload是一个Error对象，redux-actions将会自动设置```action.error```为```true```
+
 Example:
 
 ```js
