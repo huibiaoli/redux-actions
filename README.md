@@ -30,7 +30,7 @@ Wraps an action creator so that its return value is the payload of a Flux Standa
 
 `payloadCreator` must be a function, `undefined`, or `null`. If `payloadCreator` is `undefined` or `null`, the identity function is used.
 
-`payloadCreator`（payload创建器）必须是函数、`undefined`或者`null`。如果`payloadCreator`是`undefined`或`null`则缺省使用恒定函数
+`payloadCreator`（payload创建器）必须是函数、`undefined`或者`null`。如果`payloadCreator`是`undefined`或`null`则缺省使用恒等函数
 
 Example:
 
